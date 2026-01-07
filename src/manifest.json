@@ -1,0 +1,11 @@
+{
+  "manifest_version": 1,
+  "name": "Canvas Extension",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://canvas.*"],
+      "js": ["content.js"]
+    }
+  ]
+}
